@@ -33,7 +33,7 @@ Thread.sleep(3000);
 driver.findElement(By.id("submit")).click();
 
 //Close driver instance
-driver.quit();
+driver.close;
 }
 
 }
